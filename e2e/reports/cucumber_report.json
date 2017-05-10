@@ -1,0 +1,53 @@
+[
+  {
+    "description": "  I want to display the Home page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Home page",
+    "tags": [],
+    "uri": "/Users/tracyngot/Dev/angular-protractor-cucumber-starter/e2e/features/home/Home.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "The home page displays a welcome message",
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ],
+        "id": "home-page;the-home-page-displays-a-welcome-message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the home page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 581
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/tracyngot/Dev/angular-protractor-cucumber-starter/e2e/features/home/Home.steps.ts:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it displays the welcome message 'app works!'",
+            "result": {
+              "status": "passed",
+              "duration": 77
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/tracyngot/Dev/angular-protractor-cucumber-starter/e2e/features/home/Home.steps.ts:12"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "home-page"
+  }
+]
